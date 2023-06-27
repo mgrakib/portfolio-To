@@ -5,6 +5,8 @@ export default {
 		extend: {
 			colors: {
 				"primary-color": "var(--primary-color)",
+				"black-color": "var(--secondary-color)",
+				"white-color": "var(--white-color)",
 			},
 		},
 	},
