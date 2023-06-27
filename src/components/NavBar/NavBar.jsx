@@ -24,11 +24,35 @@ const NavBar = () => {
 
     const navItems = (
 		<>
-			<Link className='navLink'>
+			<Link
+				to='home'
+				className='navLink'
+				spy={true}
+				smooth={true}
+				
+				duration={500}
+			>
 				<li>Home</li>
 			</Link>
-			<Link className='navLink'>
+			<Link
+				to='aboutme'
+				className='navLink'
+				spy={true}
+				smooth={true}
+				
+				duration={500}
+			>
 				<li>About Me</li>
+			</Link>
+			<Link
+				to='portfolio'
+				className='navLink'
+				spy={true}
+				smooth={true}
+				
+				duration={500}
+			>
+				<li>Portfolio</li>
 			</Link>
 
 			<Link className='navLink'>
@@ -49,18 +73,17 @@ const NavBar = () => {
 			</Link>
 
 			{/* 14090 */}
-
 		</>
 	);
 	return (
-		<div className='bg-primary-color relative'>
+		<div className='bg-primary-color fixed top-0 left-0 w-full'>
 			<Container>
 				<div className='relative flex items-center justify-between h-16'>
 					<Link
 						to=''
 						spy={true}
 						smooth={true}
-						offset={50}
+						
 						duration={500}
 						className='cursor-pointer'
 					>
