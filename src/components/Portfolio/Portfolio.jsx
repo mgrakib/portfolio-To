@@ -1,12 +1,19 @@
+import Container from '../Container/Container';
+import SectionTitle from '../SectionTitle/SectionTitle';
 import './Portfolio.css'
 
 const Portfolio = () => {
     return (
 		<div
 			name='portfolio'
-			className='h-[100vh] bg-yellow-500 pt-16'
+			className='pt-16 bg-gradient-to-b from-black to-primary-color text-white-color'
 		>
-			portha
+			<Container>
+				<SectionTitle
+					title='Portfolio'
+					subTitle='Check out some of my work right here'
+				/>
+			</Container>
 		</div>
 	);
 };
