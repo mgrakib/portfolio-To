@@ -6,7 +6,7 @@ import img from "../../assets/myProfile.jpg";
 
 import js from "../../assets/techonology/js.png";
 import react from "../../assets/techonology/react.png";
-import mongo from "../../assets/techonology/mongo.png";
+import next from "../../assets/techonology/nextjs-1ea52ea1.png";
 
 
 import { BiSolidCircle } from "react-icons/bi";
@@ -46,7 +46,7 @@ const AboutMe = () => {
 								</div>
 								<div>
 									<img
-										src={mongo}
+										src={next}
 										alt=''
 										className='w-[45px]'
 									/>
@@ -70,16 +70,16 @@ const AboutMe = () => {
 										<br />
 										<br />
 										<p className='text-[14px] text-justify font-[300]'>
-											👋 I'm Toma. Fictional
-											person for preview purposes :) I'm
-											working with newest front-end
-											frameworks like Angular, React and
-											Vue. What you are seeing now is
-											portfolio template from Dorota1997.
-											If you like this portfolio template,
-											make sure to ⭐ the repository to
-											make it more recognizable for other
-											users. Thank you 💜
+											👋 I'm Toma. Fictional person for
+											preview purposes :) I'm working with
+											newest front-end frameworks like
+											Angular, React and Vue. What you are
+											seeing now is portfolio template
+											from Dorota1997. If you like this
+											portfolio template, make sure to ⭐
+											the repository to make it more
+											recognizable for other users. Thank
+											you 💜
 										</p>
 									</div>
 								</div>

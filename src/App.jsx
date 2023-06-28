@@ -1,5 +1,6 @@
 
 import AboutMe from './components/AboutMe/AboutMe';
+import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import NavBar from './components/NavBar/NavBar';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -17,6 +18,7 @@ const App = () => {
         <AboutMe />
         <Portfolio />
         <Skills />
+        <Contact />
       </div>
 		</div>
   );

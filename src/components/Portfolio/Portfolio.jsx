@@ -9,6 +9,10 @@ import reactParallax from "../../assets/project/reactParallax-88913817.jpg";
 import reactSmooth from "../../assets/project/reactSmooth-295220a4.jpg";
 import reactWeather from "../../assets/project/reactWeather-b53d1554.jpg";
 
+import AOS from "aos";
+import "aos/dist/aos.css"; 
+AOS.init();
+
 const Portfolio = () => {
     return (
 		<div
@@ -25,91 +29,225 @@ const Portfolio = () => {
 					<div className='grid grid-cols-3 gap-5'>
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
 							<div className='overflow-hidden group'>
-								<img
-									src={arrayDestruct}
-									alt=''
-									className='w-full group-hover:scale-105 duration-300'
-								/>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='0'
+								>
+									<img
+										src={arrayDestruct}
+										alt=''
+										className='w-full group-hover:scale-105 duration-300'
+									/>
+								</div>
 							</div>
 
 							<div className='flex items-center justify-between px-5'>
-								<button className='m-4 py-3 px-6'>Demo</button>
-								<button className='m-4 py-3 px-6'>Code</button>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='250'
+								>
+									<button className='m-4 py-3 px-6'>
+										Demo
+									</button>
+								</div>
+
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='300'
+								>
+									<button className='m-4 py-3 px-6'>
+										Code
+									</button>
+								</div>
 							</div>
 						</div>
 
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
 							<div className='overflow-hidden group'>
-								<img
-									src={reactParallax}
-									alt=''
-									className='w-full group-hover:scale-105 duration-300'
-								/>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='100'
+								>
+									<img
+										src={reactParallax}
+										alt=''
+										className='w-full group-hover:scale-105 duration-300'
+									/>
+								</div>
 							</div>
 
 							<div className='flex items-center justify-between px-5'>
-								<button className='m-4 py-3 px-6'>Demo</button>
-								<button className='m-4 py-3 px-6'>Code</button>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='350'
+								>
+									<button className='m-4 py-3 px-6'>
+										Demo
+									</button>
+								</div>
+
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='400'
+								>
+									<button className='m-4 py-3 px-6'>
+										Code
+									</button>
+								</div>
 							</div>
 						</div>
 
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
 							<div className='overflow-hidden group'>
-								<img
-									src={navbar}
-									alt=''
-									className='w-full group-hover:scale-105 duration-300'
-								/>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='300'
+								>
+									<img
+										src={navbar}
+										alt=''
+										className='w-full group-hover:scale-105 duration-300'
+									/>
+								</div>
 							</div>
 
 							<div className='flex items-center justify-between px-5'>
-								<button className='m-4 py-3 px-6'>Demo</button>
-								<button className='m-4 py-3 px-6'>Code</button>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='550'
+								>
+									<button className='m-4 py-3 px-6'>
+										Demo
+									</button>
+								</div>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='600'
+								>
+									<button className='m-4 py-3 px-6'>
+										Code
+									</button>
+								</div>
 							</div>
 						</div>
 
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
 							<div className='overflow-hidden group'>
-								<img
-									src={reactSmooth}
-									alt=''
-									className='w-full group-hover:scale-105 duration-300'
-								/>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='50'
+								>
+									<img
+										src={reactSmooth}
+										alt=''
+										className='w-full group-hover:scale-105 duration-300'
+									/>
+								</div>
 							</div>
 
 							<div className='flex items-center justify-between px-5'>
-								<button className='m-4 py-3 px-6'>Demo</button>
-								<button className='m-4 py-3 px-6'>Code</button>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='200'
+								>
+									<button className='m-4 py-3 px-6'>
+										Demo
+									</button>
+								</div>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='250'
+								>
+									<button className='m-4 py-3 px-6'>
+										Code
+									</button>
+								</div>
 							</div>
 						</div>
 
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
 							<div className='overflow-hidden group'>
-								<img
-									src={installNode}
-									alt=''
-									className='w-full group-hover:scale-105 duration-300'
-								/>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='150'
+								>
+									<img
+										src={installNode}
+										alt=''
+										className='w-full group-hover:scale-105 duration-300'
+									/>
+								</div>
 							</div>
 
 							<div className='flex items-center justify-between px-5'>
-								<button className='m-4 py-3 px-6'>Demo</button>
-								<button className='m-4 py-3 px-6'>Code</button>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='300'
+								>
+									<button className='m-4 py-3 px-6'>
+										Demo
+									</button>
+								</div>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='350'
+								>
+									<button className='m-4 py-3 px-6'>
+										Code
+									</button>
+								</div>
 							</div>
 						</div>
 
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
 							<div className='overflow-hidden group'>
-								<img
-									src={reactWeather}
-									alt=''
-									className='w-full group-hover:scale-105 duration-300'
-								/>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='250'
+								>
+									<img
+										src={reactWeather}
+										alt=''
+										className='w-full group-hover:scale-105 duration-300'
+									/>
+								</div>
 							</div>
 
 							<div className='flex items-center justify-between px-5'>
-								<button className='m-4 py-3 px-6'>Demo</button>
-								<button className='m-4 py-3 px-6'>Code</button>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='400'
+								>
+									<button className='m-4 py-3 px-6'>
+										Demo
+									</button>
+								</div>
+								<div
+									data-aos='fade-up'
+									data-aos-offset='0'
+									data-aos-delay='450'
+								>
+									<button className='m-4 py-3 px-6'>
+										Code
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
