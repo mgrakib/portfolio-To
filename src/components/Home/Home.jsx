@@ -3,8 +3,9 @@
 import Container from "../Container/Container";
 import user from "../../assets/img.png";
 import ParticlesEffect from "../Particles/Particles";
-import pdfFile from '../../../public/Md. Golam Rakib Full Stack Developer.pdf'
+import pdfFile from "../../../public/Md. Golam Rakib Full Stack Developer.pdf";
 
+import { Cursor, cursorStyle, useTypewriter } from "react-simple-typewriter";
 const Home = () => {
 	const handleDownload = () => {
 		const link = document.createElement("a");
@@ -13,6 +14,10 @@ const Home = () => {
 		link.click();
 	};
 
+	const [text] = useTypewriter({
+		words: ["Web Designer.", "JavaScript Developer.", "React Developer", "Hook!"],
+		loop: 0,
+	});
 	return (
 		<div className='relative'>
 			<ParticlesEffect />
@@ -32,7 +37,8 @@ const Home = () => {
 									<span className='capitalize'>Toma</span>
 								</h1>
 								<p className='text-2xl md:text-4xl font-[500] mb-4'>
-									I am a JavaScript Developer.
+									I am a <span>{text}</span>
+									<Cursor cursorColor='white' />
 								</p>
 
 								<div>

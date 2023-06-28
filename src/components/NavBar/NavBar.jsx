@@ -18,13 +18,10 @@ import { HiOutlineMenu } from "react-icons/hi";
 import { useContext, useState } from "react";
 import { AuthContext } from "../AuthContext/AuthContext";
 
-const NavBar = () => {
-    const [isOpen , setIsOpen] = useState(false)
+const NavBar = ({ isOpen, setIsOpen }) => {
+	const [isActive, setIsActive] = useState("home");
 
-	const [isActive, setIsActive] = useState('home')
-	
-
-    const navItems = (
+	const navItems = (
 		<>
 			<Link
 				to='home'
@@ -97,8 +94,14 @@ const NavBar = () => {
 			{/* 14090 */}
 		</>
 	);
+
+	console.log(isOpen)
+	const handelMenuOpen = event => {
+		event.stopPropagation();
+		setIsOpen(!isOpen);
+	};
 	return (
-		<div className='bg-primary-color fixed top-0 left-0 w-full z-50'>
+		<div onClick={() => setIsActive(false)} className='bg-primary-color fixed top-0 left-0 w-full z-50'>
 			<Container>
 				<div className='relative flex items-center justify-between h-16'>
 					<Link
@@ -135,7 +138,7 @@ const NavBar = () => {
 					<div className='md:hidden'>
 						<div>
 							<HiOutlineMenu
-								onClick={() => setIsOpen(!isOpen)}
+								onClick={handelMenuOpen}
 								className='text-white-color text-2xl cursor-pointer'
 							/>
 						</div>

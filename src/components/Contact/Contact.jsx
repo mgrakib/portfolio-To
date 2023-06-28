@@ -17,7 +17,7 @@ const Contact = () => {
 				/>
 
 				<div className='mt-8 mx-[20px] md:mx-[55px]'>
-					<div className='grid md:grid-cols-3 gap-y-10 gap-x-0 md:gap-20 items-center'>
+					<div className='grid md:grid-cols-3 gap-y-10 gap-x-0 md:gap-12 lg:gap-20 items-center'>
 						<div className='md:col-span-1'>
 							<div className='relative'>
 								<div className='absolute h-max top-1/2 transform -translate-y-1/2 w-full '>
@@ -28,7 +28,7 @@ const Contact = () => {
 								</div>
 
 								<div className='flex flex-col rounded-lg relative z-40 overflow-hidden w-full'>
-									<div className='bg-[#111827b3] p-6 flex items-start gap-3 border-b border-[#d6d6d664]'>
+									<div className='bg-[#111827b3] p-3 lg:p-6 flex items-start gap-3 border-b border-[#d6d6d664]'>
 										<div className='p-3 bg-gradient-to-r from-ternary-color to-secondary-color inline-block rounded-full'>
 											<FaLocationDot />
 										</div>
@@ -41,7 +41,7 @@ const Contact = () => {
 											</p>
 										</div>
 									</div>
-									<div className='bg-[#111827b3] p-6 flex items-start gap-3 border-b border-[#d6d6d664]'>
+									<div className='bg-[#111827b3] p-3 lg:p-6 flex items-start gap-3 border-b border-[#d6d6d664]'>
 										<div className='p-3 bg-gradient-to-r from-ternary-color to-secondary-color inline-block rounded-full'>
 											<FaLocationDot />
 										</div>
@@ -57,7 +57,7 @@ const Contact = () => {
 											</p>
 										</div>
 									</div>
-									<div className='bg-[#111827b3] p-6 flex items-start gap-3'>
+									<div className='bg-[#111827b3] p-3 lg:p-6 flex items-start gap-3'>
 										<div className='p-3 bg-gradient-to-r from-ternary-color to-secondary-color inline-block rounded-full'>
 											<FaLocationDot />
 										</div>
