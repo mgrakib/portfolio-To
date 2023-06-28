@@ -15,7 +15,7 @@ const Home = () => {
 	};
 
 	const [text] = useTypewriter({
-		words: ["Web Designer.", "JavaScript Developer.", "React Developer", "Hook!"],
+		words: ["Web Designer.", "JavaScript Developer.", "React Developer"],
 		loop: 0,
 	});
 	return (
@@ -53,7 +53,7 @@ const Home = () => {
 								<div>
 									<button
 										onClick={handleDownload}
-										className='bg-gradient-to-r from-ternary-color to-secondary-color py-3 px-6 rounded-lg mt-6'
+										className='bg-gradient-to-r from-ternary-color to-secondary-color py-3 px-6 rounded-lg mt-6 animate-bounce'
 									>
 										Download Resume
 									</button>

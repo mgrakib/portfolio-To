@@ -95,7 +95,7 @@ const NavBar = ({ isOpen, setIsOpen }) => {
 		</>
 	);
 
-	console.log(isOpen)
+
 	const handelMenuOpen = event => {
 		event.stopPropagation();
 		setIsOpen(!isOpen);
