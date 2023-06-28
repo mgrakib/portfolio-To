@@ -1,24 +1,17 @@
 import Container from '../Container/Container';
 import SectionTitle from '../SectionTitle/SectionTitle';
-import './Portfolio.css'
+import './Skills.css'
 
-import arrayDestruct from '../../assets/project/arrayDestruct-6e958487.jpg'
-import installNode from "../../assets/project/installNode-a6a2f17b.jpg";
-import navbar from "../../assets/project/navbar-270beda7.jpg";
-import reactParallax from "../../assets/project/reactParallax-88913817.jpg";
-import reactSmooth from "../../assets/project/reactSmooth-295220a4.jpg";
-import reactWeather from "../../assets/project/reactWeather-b53d1554.jpg";
-
-const Portfolio = () => {
+const Skills = () => {
     return (
 		<div
-			name='portfolio'
-			className='pt-16 bg-gradient-to-b from-black to-primary-color text-white-color'
+			name='skills'
+			className='pt-16 bg-gradient-to-b from-primary-color to-black text-white-color'
 		>
 			<Container>
 				<SectionTitle
-					title='Portfolio'
-					subTitle='Check out some of my work right here'
+					title='Skills'
+					subTitle="These are the technologies I've worked with"
 				/>
 
 				<div className='mt-8 mx-[55px]'>
@@ -119,4 +112,4 @@ const Portfolio = () => {
 	);
 };
 
-export default Portfolio;
+export default Skills;

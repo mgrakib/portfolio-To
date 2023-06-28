@@ -10,10 +10,12 @@ const Home = () => {
 			className='pt-16 bg-gradient-to-b from-primary-color to-black'
 		>
 			<Container>
-				<div className='flex flex-col md:flex-row items-center text-white-color gap-10 md:gap-0'>
-					<div className='md:w-1/2 p-2 md:p-5'>
+				<div className='mx-[55px] flex flex-col md:flex-row items-center text-white-color gap-10 md:gap-0'>
+					<div className='md:w-1/2'>
 						<div>
-							<p className='text-lg mb-1 md:mb-3'>WELCOME TO MY WORLD</p>
+							<p className='text-lg mb-1 md:mb-3'>
+								WELCOME TO MY WORLD
+							</p>
 							<h1 className='text-5xl font-[700]  md:text-6xl md:font-[800] leading-[58px] md:leading-[78px] mb-2 md:mb-4'>
 								Hi, I'm <span className='capitalize'>Toma</span>
 							</h1>
