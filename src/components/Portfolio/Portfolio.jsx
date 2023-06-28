@@ -25,8 +25,8 @@ const Portfolio = () => {
 					subTitle='Check out some of my work right here'
 				/>
 
-				<div className='mt-8 mx-[55px]'>
-					<div className='grid grid-cols-3 gap-5'>
+				<div className='mt-8 mx-[20px] md:mx-[55px]'>
+					<div className='grid md:grid-cols-3 gap-5'>
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
 							<div className='overflow-hidden group'>
 								<div

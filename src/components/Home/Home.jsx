@@ -23,8 +23,8 @@ const Home = () => {
 				<Container>
 					<div className='mx-[20px] md:mx-[55px] flex flex-col md:flex-row items-center text-white-color gap-10 md:gap-0'>
 						<div className='md:w-1/2 relative'>
-							<div className='relative '>
-								<p className='text-lg mb-1 md:mb-3'>
+							<div className='relative mt-2 '>
+								<p className='text-base md:text-lg mb-1 md:mb-3'>
 									WELCOME TO MY WORLD
 								</p>
 								<h1 className='text-5xl font-[700]  md:text-6xl md:font-[800] leading-[58px] md:leading-[78px] mb-2 md:mb-4'>
@@ -32,11 +32,11 @@ const Home = () => {
 									<span className='capitalize'>Toma</span>
 								</h1>
 								<p className='text-2xl md:text-4xl font-[500] mb-4'>
-									I am a JavaScript Developer.|
+									I am a JavaScript Developer.
 								</p>
 
 								<div>
-									<p className='text-base'>
+									<p className='text-sm md:text-base'>
 										I use animation as a third dimension by
 										which to simplify experiences and guide
 										through each and every interaction. I'm
@@ -56,7 +56,7 @@ const Home = () => {
 						</div>
 						<div className='md:w-1/2 '>
 							<div className='relative'>
-								<div className='w-[75%]  mx-auto relative z-10'>
+								<div className='w-[85%] md:w-[75%]  mx-auto relative z-10'>
 									<img
 										src={user}
 										alt=''

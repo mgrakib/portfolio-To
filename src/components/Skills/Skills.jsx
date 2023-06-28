@@ -27,8 +27,8 @@ const Skills = () => {
 					subTitle="These are the technologies I've worked with"
 				/>
 
-				<div className='mt-8 mx-[55px]'>
-					<div className='grid grid-cols-3 gap-10'>
+				<div className='mt-8 mx-[20px] md:mx-[55px]'>
+					<div className='grid md:grid-cols-3 gap-10'>
 						<div
 							data-aos='fade-up'
 							data-aos-offset='0'
