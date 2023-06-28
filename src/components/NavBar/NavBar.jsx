@@ -15,12 +15,14 @@ import {
 
 import logo from "../../assets/logo.svg";
 import { HiOutlineMenu } from "react-icons/hi";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { AuthContext } from "../AuthContext/AuthContext";
+
 const NavBar = () => {
     const [isOpen , setIsOpen] = useState(false)
 
 	const [isActive, setIsActive] = useState('home')
-
+	
 
     const navItems = (
 		<>
