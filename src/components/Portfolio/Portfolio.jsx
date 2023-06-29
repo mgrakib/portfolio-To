@@ -2,15 +2,13 @@ import Container from '../Container/Container';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import './Portfolio.css'
 
-import arrayDestruct from '../../assets/project/arrayDestruct-6e958487.jpg'
-import installNode from "../../assets/project/installNode-a6a2f17b.jpg";
-import navbar from "../../assets/project/navbar-270beda7.jpg";
-import reactParallax from "../../assets/project/reactParallax-88913817.jpg";
-import reactSmooth from "../../assets/project/reactSmooth-295220a4.jpg";
-import reactWeather from "../../assets/project/reactWeather-b53d1554.jpg";
+
+import bg from '../../../public/LEGOBOTIC.jpg'
+import portfolio from '../../assets/project/portfolio.png'
 
 import AOS from "aos";
 import "aos/dist/aos.css"; 
+import { FaGithub, FaLink } from 'react-icons/fa6';
 AOS.init();
 
 const Portfolio = () => {
@@ -28,8 +26,11 @@ const Portfolio = () => {
 				<div className='mt-8 mx-[20px] md:mx-[55px]'>
 					<div className='grid md:grid-cols-3 gap-5'>
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
-							<div className='overflow-hidden group'>
-								<div
+							<div
+								style={{ backgroundImage: `url(${bg})` }}
+								className='overflow-hidden group h-[300px] bg-cover bg-top duration-[4000ms] ease-in-out hover:bg-bottom'
+							>
+								{/* <div
 									data-aos='fade-up'
 									data-aos-offset='0'
 									data-aos-delay='0'
@@ -39,214 +40,327 @@ const Portfolio = () => {
 										alt=''
 										className='w-full group-hover:scale-105 duration-300'
 									/>
-								</div>
+								</div> */}
 							</div>
 
-							<div className='flex items-center justify-between px-5'>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='250'
-								>
-									<button className='m-4 py-3 px-6'>
-										Demo
-									</button>
+							<div className='p-3'>
+								<div>
+									<p>Technologies</p>
 								</div>
+								<div className='mt-4'>
+									<div className='flex items-center gap-2 text-xs flex-wrap justify-between'>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											React
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Tailwind
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Firebase
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Express.js
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											MongoDB
+										</p>
 
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='300'
-								>
-									<button className='m-4 py-3 px-6'>
-										Code
-									</button>
-								</div>
-							</div>
-						</div>
+										<div className='flex items-center justify-end gap-2 flex-1'>
+											<div
+												data-aos='fade-up'
+												data-aos-offset='0'
+												data-aos-delay='250'
+											>
+												<button className='text-lg p-1 border rounded-full'>
+													<FaGithub className='' />
+												</button>
+											</div>
 
-						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
-							<div className='overflow-hidden group'>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='100'
-								>
-									<img
-										src={reactParallax}
-										alt=''
-										className='w-full group-hover:scale-105 duration-300'
-									/>
-								</div>
-							</div>
-
-							<div className='flex items-center justify-between px-5'>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='350'
-								>
-									<button className='m-4 py-3 px-6'>
-										Demo
-									</button>
-								</div>
-
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='400'
-								>
-									<button className='m-4 py-3 px-6'>
-										Code
-									</button>
+											<div
+												data-aos='fade-up'
+												data-aos-offset='0'
+												data-aos-delay='300'
+											>
+												<button
+													className='text-lg p-1 border rounded-full'
+													title='Live Link'
+												>
+													<FaLink />
+												</button>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
-							<div className='overflow-hidden group'>
-								<div
+							<div
+								style={{ backgroundImage: `url(${portfolio})` }}
+								className='overflow-hidden group h-[300px] bg-cover bg-top duration-[4000ms] ease-in-out hover:bg-bottom'
+							>
+								{/* <div
 									data-aos='fade-up'
 									data-aos-offset='0'
-									data-aos-delay='300'
+									data-aos-delay='0'
 								>
 									<img
-										src={navbar}
+										src={arrayDestruct}
 										alt=''
 										className='w-full group-hover:scale-105 duration-300'
 									/>
-								</div>
+								</div> */}
 							</div>
 
-							<div className='flex items-center justify-between px-5'>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='550'
-								>
-									<button className='m-4 py-3 px-6'>
-										Demo
-									</button>
+							<div className='p-3'>
+								<div>
+									<h3>Toma - React Portfolio</h3>
 								</div>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='600'
-								>
-									<button className='m-4 py-3 px-6'>
-										Code
-									</button>
+								<div>
+									<p>Technologies</p>
+								</div>
+								<div className='mt-4'>
+									<div className='flex items-center gap-2 text-xs flex-wrap justify-between'>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											React
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Tailwind
+										</p>
+										
+
+										<div className='flex items-center justify-end gap-2 flex-1'>
+											<div
+												data-aos='fade-up'
+												data-aos-offset='0'
+												data-aos-delay='250'
+											>
+												<button className='text-lg p-1 border rounded-full'>
+													<FaGithub className='' />
+												</button>
+											</div>
+
+											<div
+												data-aos='fade-up'
+												data-aos-offset='0'
+												data-aos-delay='300'
+											>
+												<button
+													className='text-lg p-1 border rounded-full'
+													title='Live Link'
+												>
+													<FaLink />
+												</button>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
-							<div className='overflow-hidden group'>
-								<div
+							<div
+								style={{ backgroundImage: `url(${bg})` }}
+								className='overflow-hidden group h-[300px] bg-cover bg-top duration-[4000ms] ease-in-out hover:bg-bottom'
+							>
+								{/* <div
 									data-aos='fade-up'
 									data-aos-offset='0'
-									data-aos-delay='50'
+									data-aos-delay='0'
 								>
 									<img
-										src={reactSmooth}
+										src={arrayDestruct}
 										alt=''
 										className='w-full group-hover:scale-105 duration-300'
 									/>
-								</div>
+								</div> */}
 							</div>
 
-							<div className='flex items-center justify-between px-5'>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='200'
-								>
-									<button className='m-4 py-3 px-6'>
-										Demo
-									</button>
+							<div className='p-3'>
+								<div>
+									<p>Technologies</p>
 								</div>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='250'
-								>
-									<button className='m-4 py-3 px-6'>
-										Code
-									</button>
+								<div className='mt-4'>
+									<div className='flex items-center gap-2 text-xs flex-wrap justify-between'>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											React
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Tailwind
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Firebase
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Express.js
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											MongoDB
+										</p>
+
+										<div className='flex items-center justify-end gap-2 flex-1'>
+											<div
+												data-aos='fade-up'
+												data-aos-offset='0'
+												data-aos-delay='250'
+											>
+												<button className='text-lg p-1 border rounded-full'>
+													<FaGithub className='' />
+												</button>
+											</div>
+
+											<div
+												data-aos='fade-up'
+												data-aos-offset='0'
+												data-aos-delay='300'
+											>
+												<button
+													className='text-lg p-1 border rounded-full'
+													title='Live Link'
+												>
+													<FaLink />
+												</button>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
-							<div className='overflow-hidden group'>
-								<div
+							<div
+								style={{ backgroundImage: `url(${bg})` }}
+								className='overflow-hidden group h-[300px] bg-cover bg-top duration-[4000ms] ease-in-out hover:bg-bottom'
+							>
+								{/* <div
 									data-aos='fade-up'
 									data-aos-offset='0'
-									data-aos-delay='150'
+									data-aos-delay='0'
 								>
 									<img
-										src={installNode}
+										src={arrayDestruct}
 										alt=''
 										className='w-full group-hover:scale-105 duration-300'
 									/>
-								</div>
+								</div> */}
 							</div>
 
-							<div className='flex items-center justify-between px-5'>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='300'
-								>
-									<button className='m-4 py-3 px-6'>
-										Demo
-									</button>
+							<div className='p-3'>
+								<div>
+									<p>Technologies</p>
 								</div>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='350'
-								>
-									<button className='m-4 py-3 px-6'>
-										Code
-									</button>
+								<div className='mt-4'>
+									<div className='flex items-center gap-2 text-xs flex-wrap justify-between'>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											React
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Tailwind
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Firebase
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Express.js
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											MongoDB
+										</p>
+
+										<div className='flex items-center justify-end gap-2 flex-1'>
+											<div
+												data-aos='fade-up'
+												data-aos-offset='0'
+												data-aos-delay='250'
+											>
+												<button className='text-lg p-1 border rounded-full'>
+													<FaGithub className='' />
+												</button>
+											</div>
+
+											<div
+												data-aos='fade-up'
+												data-aos-offset='0'
+												data-aos-delay='300'
+											>
+												<button
+													className='text-lg p-1 border rounded-full'
+													title='Live Link'
+												>
+													<FaLink />
+												</button>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 
 						<div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
-							<div className='overflow-hidden group'>
-								<div
+							<div
+								style={{ backgroundImage: `url(${bg})` }}
+								className='overflow-hidden group h-[300px] bg-cover bg-top duration-[4000ms] ease-in-out hover:bg-bottom'
+							>
+								{/* <div
 									data-aos='fade-up'
 									data-aos-offset='0'
-									data-aos-delay='250'
+									data-aos-delay='0'
 								>
 									<img
-										src={reactWeather}
+										src={arrayDestruct}
 										alt=''
 										className='w-full group-hover:scale-105 duration-300'
 									/>
-								</div>
+								</div> */}
 							</div>
 
-							<div className='flex items-center justify-between px-5'>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='400'
-								>
-									<button className='m-4 py-3 px-6'>
-										Demo
-									</button>
+							<div className='p-3'>
+								<div>
+									<p>Technologies</p>
 								</div>
-								<div
-									data-aos='fade-up'
-									data-aos-offset='0'
-									data-aos-delay='450'
-								>
-									<button className='m-4 py-3 px-6'>
-										Code
-									</button>
+								<div className='mt-4'>
+									<div className='flex items-center gap-2 text-xs flex-wrap justify-between'>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											React
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Tailwind
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Firebase
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											Express.js
+										</p>
+										<p className='border-b border-gray-500 py-1 px-2 rounded-full'>
+											MongoDB
+										</p>
+
+										<div className='flex items-center justify-end gap-2 flex-1'>
+											<div
+												data-aos='fade-up'
+												data-aos-offset='0'
+												data-aos-delay='250'
+											>
+												<button className='text-lg p-1 border rounded-full'>
+													<FaGithub className='' />
+												</button>
+											</div>
+
+											<div
+												data-aos='fade-up'
+												data-aos-offset='0'
+												data-aos-delay='300'
+											>
+												<button
+													className='text-lg p-1 border rounded-full'
+													title='Live Link'
+												>
+													<FaLink />
+												</button>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
