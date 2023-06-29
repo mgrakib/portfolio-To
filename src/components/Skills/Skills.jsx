@@ -75,7 +75,7 @@ const Skills = () => {
 										data-aos-offset='0'
 										data-aos-delay='200'
 									>
-										<p>HTML</p>
+										<p>CSS</p>
 									</div>
 								</div>
 							</div>
@@ -101,7 +101,7 @@ const Skills = () => {
 										data-aos-offset='0'
 										data-aos-delay='250'
 									>
-										<p>HTML</p>
+										<p>JavaScript</p>
 									</div>
 								</div>
 							</div>
@@ -127,7 +127,7 @@ const Skills = () => {
 										data-aos-offset='0'
 										data-aos-delay='300'
 									>
-										<p>HTML</p>
+										<p>Next.js</p>
 									</div>
 								</div>
 							</div>
@@ -153,7 +153,7 @@ const Skills = () => {
 										data-aos-offset='0'
 										data-aos-delay='350'
 									>
-										<p>HTML</p>
+										<p>React</p>
 									</div>
 								</div>
 							</div>
@@ -179,7 +179,7 @@ const Skills = () => {
 										data-aos-offset='0'
 										data-aos-delay='400'
 									>
-										<p>HTML</p>
+										<p>Tailwind</p>
 									</div>
 								</div>
 							</div>
@@ -205,7 +205,7 @@ const Skills = () => {
 										data-aos-offset='0'
 										data-aos-delay='450'
 									>
-										<p>HTML</p>
+										<p>GitHub</p>
 									</div>
 								</div>
 							</div>

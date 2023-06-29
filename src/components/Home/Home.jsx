@@ -1,9 +1,12 @@
 /** @format */
 
 import Container from "../Container/Container";
-import user from "../../assets/img.png";
+
 import ParticlesEffect from "../Particles/Particles";
 import pdfFile from "../../../public/Md. Golam Rakib Full Stack Developer.pdf";
+
+import user from "../../assets/img-2.png";
+import toma from "../../assets/img.png";
 
 import { Cursor, cursorStyle, useTypewriter } from "react-simple-typewriter";
 const Home = () => {

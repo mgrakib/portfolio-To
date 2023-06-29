@@ -2,7 +2,8 @@
 
 import Container from "../Container/Container";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import img from "../../assets/myProfile.jpg";
+import toma from "../../assets/toma.jpeg";
+
 
 import js from "../../assets/techonology/js.png";
 import react from "../../assets/techonology/react.png";
@@ -24,7 +25,7 @@ const AboutMe = () => {
 					<div className='w-full md:col-span-1 text-center'>
 						<div className=' m-[20px] md:m-[55px] p-[15px] shadow-[0_4px_6px rgba(255,255,255,.3)] bg-primary-color inline-block'>
 							<img
-								src={img}
+								src={toma}
 								alt=''
 								className='block max-w-[200px]'
 							/>
@@ -67,7 +68,6 @@ const AboutMe = () => {
 									<div className='p-1 md:p-3'>
 										<h5>Hi :)</h5>
 
-										
 										<p className='text-[14px] text-justify font-[300] mt-5 md:mt-12'>
 											👋 I'm Toma. Fictional person for
 											preview purposes :) I'm working with
