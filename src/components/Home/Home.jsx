@@ -8,10 +8,9 @@ import pdfFile from "../../../public/Md. Golam Rakib Full Stack Developer.pdf";
 import { Cursor, cursorStyle, useTypewriter } from "react-simple-typewriter";
 const Home = () => {
 	const handleDownload = () => {
-		const link = document.createElement("a");
-		link.href = pdfFile;
-		link.download = "file.pdf";
-		link.click();
+		window.open(
+			`https://drive.google.com/uc?id=1qRMUA7WjRWr2xZehtV-x4Dw5cJ1280E2&export=download`
+		);
 	};
 
 	const [text] = useTypewriter({
